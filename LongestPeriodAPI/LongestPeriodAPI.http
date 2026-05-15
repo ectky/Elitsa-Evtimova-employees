@@ -1,0 +1,6 @@
+@LongestPeriodAPI_HostAddress = http://localhost:5188
+
+GET {{LongestPeriodAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

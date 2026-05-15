@@ -1,0 +1,92 @@
+# ── .NET ────────────────────────────────────────────────────────────────────
+
+## Build results
+bin/
+obj/
+out/
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+## Visual Studio
+.vs/
+*.rsuser
+*.vsp
+*.vspx
+*.sap
+
+## Rider
+.idea/
+*.sln.iml
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Logs
+*.log
+logs/
+
+## Environment / secrets — NEVER commit these
+appsettings.Development.json
+appsettings.Local.json
+*.pfx
+*.p12
+secrets.json
+
+## Test results
+TestResults/
+coverage/
+*.trx
+*.coverage
+*.coveragexml
+
+
+# ── React / Node ─────────────────────────────────────────────────────────────
+
+## Dependencies
+node_modules/
+
+## Build output
+dist/
+build/
+.output/
+
+## Vite
+.vite/
+
+## Environment variables — NEVER commit these
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+## Cache
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
+## Editor
+.vscode/
+*.swp
+*.swo
+
+## Misc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
