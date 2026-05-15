@@ -10,7 +10,7 @@ Built as a task solution for **Sirma Group Holding**.
 
 | Layer    | Technology          |
 |----------|---------------------|
-| Frontend | React + TypeScript (Vite) |
+| Frontend | React + JavaScript (Vite) |
 | Backend  | .NET Web API (C#)   |
 
 ---
