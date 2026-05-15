@@ -52,18 +52,18 @@ Built as a task solution for **Sirma Group Holding**.
 ### Running the Backend
 
 ```bash
-cd EmployeePairApi
+cd LongestPeriodAPI
 dotnet run
 ```
 
-API will start at `http://localhost:5041`
+API will start at `https://localhost:7040;http://localhost:5188`
 
 ---
 
 ### Running the Frontend
 
 ```bash
-cd employee-pair-finder
+cd longest-period
 npm install
 npm run dev
 ```
